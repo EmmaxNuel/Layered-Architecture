@@ -4,6 +4,8 @@ import com.emmax.maxl_library_system.data.model.Book;
 import com.emmax.maxl_library_system.data.repository.BookRepo;
 import com.emmax.maxl_library_system.dto.AddBookRequest;
 import com.emmax.maxl_library_system.dto.AddBookResponse;
+import com.emmax.maxl_library_system.dto.DeleteBookRequest;
+import com.emmax.maxl_library_system.dto.DeleteBookResponse;
 import com.emmax.maxl_library_system.utils.Mappers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -22,4 +24,8 @@ public class BookService {
         AddBookResponse response = new AddBookResponse();
         return Mappers.mapAddBookResponse(book);
     }
+
+    public
+
+
 }
